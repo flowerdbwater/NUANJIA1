@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/qqh"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="悄悄话"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/light_pink"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/question_answer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="问答"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/pink"
+        app:layout_constraintTop_toBottomOf="@id/qqh"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/dynamic_NV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:labelVisibilityMode="labeled"
+        android:background="@color/white"
+        app:menu="@menu/dynamic_menu"
+        app:layout_constraintTop_toBottomOf="@+id/question_answer"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+<!--    <RadioGroup-->
+<!--        android:id="@+id/dynamic"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/question_answer">-->
+
+<!--        <RadioButton-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="推荐动态"/>-->
+
+<!--        <RadioButton-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="关注动态" />-->
+
+<!--    </RadioGroup>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

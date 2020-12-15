@@ -1,0 +1,36 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="tab_menu_item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:textColor">@drawable/tab_menu_text</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:background">@color/light_light_green</item>
+    </style>
+
+    <style name="publish_btn">
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="iconPadding">5dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:textColor">@color/text_grey</item>
+    </style>
+
+    <style name="permission">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+</resources>

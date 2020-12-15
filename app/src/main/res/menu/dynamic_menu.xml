@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/recommend_dynamic"
+        android:title="@string/recommend_dynamic"
+        android:icon="@drawable/ic_menu_btn"/>
+
+    <item android:id="@+id/focus_dynamic"
+        android:title="@string/focus_dynamic"
+        android:icon="@drawable/ic_menu_btn"/>
+
+</menu>

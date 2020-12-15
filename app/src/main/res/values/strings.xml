@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">暖家</string>
+
+    <string name="password">密码</string>
+    <string name="uer">账号</string>
+
+    <string name="tab_menu_home">首页</string>
+    <string name="tab_menu_square">广场</string>
+    <string name="tab_menu_health">健康</string>
+    <string name="tab_menu_person">个人</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="first_home_fragment">first home fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="second_square_fragment">second square fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="third_health_fragment">third health fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="four_person_fragment">four person fragment</string>
+    <string name="write_dynamic_title">写动态</string>
+    <string name="forget">忘记密码？</string>
+    <string name="recommend_dynamic">推荐动态</string>
+    <string name="focus_dynamic">关注动态</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cancel">取消</string>
+    <string name="clearHistory">清除搜索历史</string>
+
+</resources>
